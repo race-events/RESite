@@ -6,56 +6,80 @@
         <meta name="keywords" content ='race events, marathon, fun run, trail run, road race, ultramarthon'/>
         <meta name="apple-itunes-app" content="app-id=1466191425" affiliate-data="race"
             app-argument= {`https://raceevents.page.link/?link=https://www.raceevents.co&apn=co.raceevents.android&amv=3&isi=1466191425&ibi=co.raceevents.ios}`}/>
+  
+        <!-- <link rel="stylesheet" href="./static/css/slick.css"> -->
+        <!-- <link rel="stylesheet" href="./static/css/App.css"> -->
+        <!-- <link rel="stylesheet" href="./static/css/slicknav.min.css"> -->
+        <!-- <link rel="stylesheet" href="./static/css/responsive.css"> -->
+        <!-- <link rel="stylesheet" href="./static/css/owl.carousel.css">
+        <link rel="stylesheet" href="./static/css/animate.min.css"> -->
+        <link rel="stylesheet" href="./static/css/style.css">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+        <link rel="canonical" href='https://www.raceevents.co' />
+      
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+      
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" 
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+      
+        <link href="https://cdn.bootcss.com/SlickNav/1.0.10/slicknav.min.css" rel="stylesheet" />
+      
+        <link href="https://cdn.bootcss.com/SlickNav/1.0.10/slicknav.css" rel="stylesheet" />
+  
+        <script src="https://cdn.bootcss.com/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+        <script src="https://cdn.bootcss.com/SlickNav/1.0.10/jquery.slicknav.js"></script>
     </head>
 
     <body>
 
         <div data-spy="scroll" data-target=".header" data-offset="50">
 
-
-            <header className="header">
-                <div className="container">
-                    <div className="row flexbox-center">
-                        <div className="col-lg-2 col-md-3 col-6">
+            <section class="header">
+                <div class="container">
+                    <div class="row flexbox-center">
+                        <div class="col-lg-2 col-md-3 col-6">
                             <a href="#home">
-                                <img src={logo}alt="logo" style={{ width: '120px', height:'auto'}}/>
+                                <img src="./static/assets/logo.png" alt="logo" style="width:120px;height:auto"/>
                             </a>
                         </div>
-                        <div className="col-lg-10 col-md-9 col-6">
-                            <div className="responsive-menu" />
-                            <div className="mainmenu">
-                                <ul id="primary-menu">
-                                    <li><a className="nav-link" href="#home">Home</a></li>
-                                    <li><a className="nav-link" href="#about">About</a></li>
-                                    <li><a className="nav-link" href="#mobile">Mobile App</a></li>
+                        <div class="col-lg-10 col-md-9 col-6">
+                            <div class="responsive-menu" />
+                            <div class="mainmenu">
+                                <ul class="primary-menu">
+                                    <li><a class="nav-link" href="#home">Home</a></li>
+                                    <li><a class="nav-link" href="#about">About</a></li>
+                                    <li><a class="nav-link" href="#mobile">Mobile App</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-            </header>
+            </section>
             
         
-            <section className="hero-area" id="home">
-                <div className="">
-                    <div className="">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-lg-7">
-                                    <div className="hero-area-content">
+            <section class="hero-area" class="home">
+                <div class="">
+                    <div class="">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-7">
+                                    <div class="hero-area-content">
                                         <h1>Race Events Mobile App</h1>
                                         <p>Get updates to events your're joining or interested in. 
                                             Race Event Mobile app provides a user friendly event bookmarking and monitoring features.
                                             Browse all events like Marathons, Triathlons and Virtual Race  around the world.
                                          </p>
-                                        <a href="https://play.google.com/store/apps/details?id=co.raceevents.android" className="appao-btn" target="blank">Google Play</a>
-                                        <a href="https://itunes.apple.com/ph/app/race-events-co/id1466191425" className="appao-btn" target="blank">App Store</a>
-                                        {/* <!-- <a href="assets/how it works.m4v" className="popup-youtube"><p className="appao-btn"> How it Works</p></a> --> */}
+                                        <a href="https://play.google.com/store/apps/details?id=co.raceevents.android" class="appao-btn" target="blank">Google Play</a>
+                                        <a href="https://itunes.apple.com/ph/app/race-events-co/id1466191425" class="appao-btn" target="blank">App Store</a>
                                     </div>
                                 </div>
-                                <div className="col-lg-5">
-                                    <div className="hand-mockup text-lg-left text-center">
-                                        <img src={hand} alt="Hand Mockup" />
+                                <div class="col-lg-5">
+                                    <div class="hand-mockup text-lg-left text-center">
+                                        <img src="static/assets/hand.png" alt="Hand Mockup" />
                                     </div>
                                 </div>
                             </div>
@@ -63,40 +87,40 @@
                     </div>
                 </div>
             </section>
-            {/* <!-- hero area end --> */}
+            <!-- hero area end -->
             
-            {/* <!-- about section start --> */}
-            <section className="about-area ptb-90" id="about">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="sec-title">
-                                <h2>About Race Events<span className="sec-title-border"><span></span><span></span><span></span></span></h2>
+            <!-- about section start -->
+            <section class="about-area ptb-90" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="sec-title">
+                                <h2>About Race Events<span class="sec-title-border"><span></span><span></span><span></span></span></h2>
                                 <p>Race Events is a cloud based endurance race event management system. Centralizes event registration, routing , customer support and many more.</p>
                             </div>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-lg-4">
-                            <div className="single-about-box">
-                                <i className="fas fa-running"/>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="single-about-box">
+                                <!-- <i class="fas fa-running"/> -->
                                 <h4>Participants</h4>
                                 <p> Use the Mobile App to get updates about the event your're joining or interested in.</p>
                             </div>
                         </div>
-                        <div className="col-lg-4">
-                            <div className="single-about-box active">
-                                <i className="fas fa-mobile-alt"/>
-                                <i className="fas fa-arrows-alt-h"/>
-                                <i className="fas fa-calendar-alt" />
-                                <i className="fas fa-browser"/>
+                        <div class="col-lg-4">
+                            <div class="single-about-box active">
+                                <!-- <i class="fas fa-mobile-alt"/>
+                                <i class="fas fa-arrows-alt-h"/>
+                                <i class="fas fa-calendar-alt" />
+                                <i class="fas fa-browser"/> -->
                                 <h4>Race Events Platform</h4>
                                 <p>Connecting event participants to event organizers</p>
                             </div>
                         </div>
-                        <div className="col-lg-4">
-                            <div className="single-about-box">
-                                <i className="fas fa-flag-checkered"/>
+                        <div class="col-lg-4">
+                            <div class="single-about-box">
+                                <!-- <i class="fas fa-flag-checkered"/> -->
                                 <h4>Organizers</h4>
                                 <p>Post and Update you events anytime, anywhere. Have a direct engagement to all your participants.</p>
                             </div>
@@ -104,57 +128,57 @@
                     </div>
                 </div>
             </section>
-            {/* <!-- about section end --> */}
+            <!-- about section end -->
         
-            {/* <!-- feature section start --> */}
-            <section className="feature-area ptb-90" id="mobile">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-8 d-flex align-items-center">
-                            <div className="single-feature-box text-lg-right text-center">
+            <!-- feature section start -->
+            <section class="feature-area ptb-90" id="mobile">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 d-flex align-items-center">
+                            <div class="single-feature-box text-lg-right text-center">
                                 <ul>
                                     <li>
-                                        <div className="feature-box-info">
+                                        <div class="feature-box-info">
                                             <h4>Search</h4>
                                             <p>Find events by category like half marathon or full marathon.</p>
                                         </div>
-                                        <div className="feature-box-icon">
-                                            <i className="fas fa-search"/>
+                                        <div class="feature-box-icon">
+                                            <!-- <i class="fas fa-search"/> -->
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="feature-box-info">
+                                        <div class="feature-box-info">
                                             <h4>Favorites</h4>
                                             <p>If you're planning your yearly events, add the event to your favorite list.</p>
                                         </div>
-                                        <div className="feature-box-icon">
-                                            <i className="fas fa-heart"/>
+                                        <div class="feature-box-icon">
+                                            <!-- <i class="fas fa-heart"/> -->
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="feature-box-info">
+                                        <div class="feature-box-info">
                                             <h4>Announcements</h4>
                                             <p>Get notified for a certain event's updates, to venue changes, promo details, or new rules.</p>
                                         </div>
-                                        <div className="feature-box-icon">
-                                            <i className="fas fa-bullhorn"/>
+                                        <div class="feature-box-icon">
+                                            <!-- <i class="fas fa-bullhorn"/> -->
                                         </div>
                                     </li>
                                     <li>
-                                        <div className="feature-box-info">
+                                        <div class="feature-box-info">
                                             <h4>Social Media</h4>
                                             <p>Share event you wanted to join or invite friend to join a certain events.</p>
                                         </div>
-                                        <div className="feature-box-icon">
-                                            <i className="fas fa-user-friends"/>
+                                        <div class="feature-box-icon">
+                                            <!-- <i class="fas fa-user-friends"/> -->
                                         </div>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                    <div className="col-lg-3">
-                            <div className="single-feature-box text-center">
-                                <img src={features} alt='App'/>
+                    <div class="col-lg-3">
+                            <div class="single-feature-box text-center">
+                                <img src="static/assets/features.gif" alt='App'/>
                             </div>
                         </div>
                     </div>
@@ -162,32 +186,30 @@
             </section>
         
             
-            {/* <!-- footer section start --> */}
-            <footer className="footer">
-                <div className="container">
-                    <div className="row">
+            <!-- footer section start --> 
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
                     </div>
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="copyright-area">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyright-area">
                                 <ul>
                                     <li>
                                         <a href="mailto:mail.raceevents@gmail.com">
-                                            <i className="far fa-envelope"/>
+                                            <!-- <i class="far fa-envelope"/> -->
                                         </a>
                                     </li>
                                     <li>
                                         <a href="https://www.facebook.com/raceevents.co/">
-                                            <i className="fab fa-facebook"/>
+                                            <!-- <i class="fab fa-facebook"/> -->
                                         </a>
                                     </li> 
                                 </ul>
                                 
-                                <div className="footer-section">
-                                    <label onClick={this.gotoTerms}>Terms & Condition</label>
-                                    <Divider type='vertical'/>
+                                <div class="footer-section">
+                                    <label>Terms & Condition</label>
                                     <span /> <span/>
-                                    <label onClick={this.gotoEventList}>Events List</label>
                                 </div>
                                 <p> &copy; 2019 Race Events Co. LLC All rights reserved.</p>
                             </div>
@@ -196,8 +218,8 @@
                 </div>
             </footer>
             
-            <a href="#" className="scrollToTop">
-                <i className="fas fa-angle-double-up"></i>
+            <a href="#" class="scrollToTop">
+                <!-- <i class="fas fa-angle-double-up"></i> -->
             </a>
         </div>
 
