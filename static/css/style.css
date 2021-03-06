@@ -35,11 +35,6 @@ Description: Responsive HTML5 / CSS3 One-page Landing App Template.
 --------- THEME DEFAULT CSS --------
 ----------------------------------*/
 body {
-    line-height: 24px;
-    font-size: 14px;
-    color: #666666;
-    font-weight: 400;
-
     margin: 0;
     font-family: 'Droid Sans',
       sans-serif;
@@ -47,8 +42,17 @@ body {
     -moz-osx-font-smoothing: grayscale;
     letter-spacing: .5px;
     color: #ffffff;
-}
-
+  }
+  
+  .logo {
+    height: auto;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../Assets/logo.png); 
+    margin: 10px;
+  }
 /*----------------------------
 ---------- RESET CSS ---------
 ----------------------------*/
